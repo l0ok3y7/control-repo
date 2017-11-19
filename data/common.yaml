@@ -1,2 +1,7 @@
 ---
 message: "This node is using common data"
+tomcat::xms: "52m"
+tomcat::xmx: "124m"
+tomcat::maxpermsize: "128m"
+classes:
+  - ntp
